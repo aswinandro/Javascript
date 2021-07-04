@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Crash</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <p>Hey There</p> 
+    <h1 id="age"></h1>
+    <h1>Note:</h1>
+    <h3>Please use Ctrl + Shift + I -  To open Inspector in Chrome and then Learn 
+        Its Better you learn using Chrome -- Dev Tools
+    </h3>
+    <a href = "https://www.w3schools.com/js/js_loop_for.asp"> CLick for reference</a>
+    <h3>JSON Object Stuff -  Look at Console for Differences between various statements </h3>
+    <script>
+    let students = [
+    {
+        
+        "name" : "Aswin",
+        "age" : 25,
+        "height" : 168
+    },
+
+    {
+        "name" : "Andro",
+        "age" : 25,
+        "height" : 168
+        
+    },
+
+    {
+        "name" : "Fathima",
+        "age" : 21,
+        "height" : 158
+    },
+
+    {
+        "name" : "Reezma",
+        "age" : 21,
+        "height" : 152
+    }
+    ] 
+    let student =` [
+    {
+        "name" : "Aswin",
+        "age" : 25,
+        "height" : 168
+    },
+
+    {
+        "name" : "Andro",
+        "age" : 25,
+        "height" : 168
+        
+    }
+    ] ` 
+    console.log(students); // See the Difference in the Console
+    console.log(student); // See Differnce
+    console.log(JSON.parse(student)); // All
+    console.log(JSON.parse(student)[1]);
+    alert('Must Check the JSON.parse indexing Differnces')
+    console.log(JSON.parse(student)[1].age);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+[
+    {
+        "name" : "Aswin",
+        "age" : 25,
+        "height" : 168
+    },
+
+    {
+        "name" : "Andro",
+        "age" : 25,
+        "height" : 168
+    },
+
+    {
+        "name" : "Fathima",
+        "age" : 21,
+        "height" : 158
+    },
+
+    {
+        "name" : "Reezma",
+        "age" : 21,
+        "height" : 152
+    }
+]
