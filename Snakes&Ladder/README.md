@@ -2,7 +2,7 @@
 
 ##Click index.html in views folder to Run. Click audio to hear serene music
 
-<img src="../assets/images/snl.png">
+<img src="./assets/images/snl.png">
 
 ## Table of Contents
 
