@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snakes and Ladders</title>
+      <link rel="stylesheet" href="../css/stylesheet.css">
+  </head>
+  <body>
+    <div class ='container bg'>
+        <div class='wrapper-top'>
+        <img class="gameHeaderName" src="../assets/images/snl.png" alt="SnakesAndLadderImage">
+        </div>
+        <div class="wrapper1">
+          <div id='overlay'></div>
+          <table id='tbl' border="2px">
+          </table>
+        </div>
+        <div class="wrapper2">
+          <div class='top-row right-section'>
+            <img class='gold' src="../assets/images/gold.png" alt="gold image">
+            <button class="sound" type="button"><img src="../assets/images/sound.png" alt ="auto play"></button>
+            <button class="resetButton" type="button"><img src="../assets/images/reset.png" alt ="reset Button"></button>
+            <button class="auto-play" type="button"><img src="../assets/images/play.png" alt ="auto play"></button>
+            <audio class="audio" src="../assets/audio/bensound-betterdays.mp3" type="audio/mpeg"></audio>
+            <span class='mission'> Play ! Enjoy Click Music Button to Hear Ambient Music </span>
+          </div>
+          <div class='middle-row right-section'>
+            <h3>P1 P2</h3>
+            <img class='circle' src="../assets/images/circle.png" alt="golden circle">
+            <img class="p1Turn turn" src="../assets/images/lupid1.png" alt="monkey">
+            <img class="p2Turn turn" src="../assets/images/pig1.png" alt="pig">
+          </div>
+          <div class='bottom-row right-section'>
+            <button class="dieButton" type="button" onclick="play()" >Roll</button>
+            <audio id="audio2" src="../assets/audio/diceRoll.mp3"></audio>
+            <div class='dieValue'>0</div>
+          </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../script/script.js" charset="utf-8"></script>
+  </body>
+</html>
